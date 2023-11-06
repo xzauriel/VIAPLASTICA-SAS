@@ -1,0 +1,150 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Estilos para el carrusel */
+#carrusel {
+    margin-top: 20px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para los enlaces en el menú */
+.navbar-nav .nav-link {
+    margin: 0 15px;
+}
+
+/* Estilos para los títulos de sección */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Estilos para las subsecciones */
+h2 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+}
+
+/* pie de página (footer) */
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para el título "Nuestros clientes"  */
+#nuestros-clientes h2 {
+    font-size: 34px; 
+    color: rgb(91, 91, 243); 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+#nuestros-clientes img {
+    height: 100px; /* altura de las imágenes*/
+    align-items: center;
+}
+
+/* Estilo "Nuestras credenciales"  */
+#nuestras-certificaciones h2 {
+    font-size: 24px; 
+    color: rgb(91, 91, 243); 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+#nuestras-certificaciones img {
+    height: 80px; /* altura de las imágenes*/
+    align-items: center;
+}
+
+/* Estilos para la sección de la tabla de productos */
+#tabla {
+    margin-top: 10px;
+    border: 0px;
+    border-style: hidden;
+    border-color: rgb(219, 24, 24);
+}
+
+#tabla p {
+    text-align: justify;
+}
+
+/* Estilo para las casillas de la tabla con bordes */
+#tabla .col-6,
+#tabla .col-4,
+#tabla .col-8 {
+    border: 0px hidden rgb(22, 74, 218); /* Borde de 1px de ancho y color negro */
+    padding: 2px; /* Espaciado interior */
+    margin: 0px;
+}
+
+#tabla img {
+    /* max-width: 100%; */
+    max-height: 350px;
+    height: auto;
+    width: 300px;
+    border-style: hidden;
+    border-color: brown;
+}
+
+.tablaProductos{
+    max-width: 98%;
+    height: 300px;
+    margin: 1px;
+    border-style: hidden;
+    border-color: rgb(214, 43, 236);
+}
+
+.accordion{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/*  Fondo del acordeón  */
+.fondo-imagen {
+    background-image: url('../resourses/images/blue-abstract-background-oil-bubble-water-wallpaper.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+    background-position: center center; /* Centra la imagen de fondo */
+    background-color: transparent !important; /* Asegura que el color de fondo sea transparente */
+}
