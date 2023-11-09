@@ -148,3 +148,19 @@ footer {
     background-position: center center; /* Centra la imagen de fondo */
     background-color: transparent !important; /* Asegura que el color de fondo sea transparente */
 }
+
+.img-fluid{
+    position: relative;
+    height: 200px;
+    width: auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
