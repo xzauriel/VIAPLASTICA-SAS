@@ -14,28 +14,28 @@
 
 <body>
     <!-- Barra de menú -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a href="../index.html">
-            <img src="../resourses/images/Banner main.png" alt="Logo" style="height: 50px;">      </img>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Productos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="quienes somos.html">Quiénes Somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contáctenos</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img src="../resourses/images/Banner main-01.png" alt="Logo" style="height: 50px;">      </img>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienes somos.html">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contáctenos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
 
     <div class="container" id="tabla" style="background-color: white;">
@@ -53,58 +53,80 @@
             </div>
         </div>
 
-        <!-- Segunda fila: Imágenes de las 3 primeras casillas -->
-        <div class="row align-items-center">
-            <div class="col-4 text-center">
+        <!--Fila de prueba-->
+        <div class="row">
+            <div class="col-4">
                 <div>
-                <img src="https://1.bp.blogspot.com/-d7QtIkYCXvA/USgZNnXNW4I/AAAAAAAACSw/i1xPARGtL-I/s1600/tapas1.JPG"
-                    alt="" class="img-fluid" style="height: 250px; width: auto;">
-                </div>
-            </div>
-            <div class="col-4 text-center">
-                <div>
-                <img src="https://2.bp.blogspot.com/-VkLRvKvyaZo/USgZTy7P_3I/AAAAAAAACTA/elHrtyN_O1s/s1600/AGUAS+MINERALES.jpg"
-                    alt="" class="img-fluid" style="height: 250px; width: auto;">
-                </div>
-            </div>
-            <div class="col-4 text-center">
-                <div>
-                <img src="https://3.bp.blogspot.com/-Q7U8gPdODX4/USgZSLJJjHI/AAAAAAAACS4/IJPW-lThNoA/s320/tapa2.jpg"
-                    alt="" class="img-fluid" style="height: 250px; width: auto;">
+                    <!-- Carrusel de imágenes -->
+                    <div id="carrusel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicadores -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#carrusel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carrusel" data-slide-to="1"></li>
+                            <li data-target="#carrusel" data-slide-to="2"></li>
+                            <li data-target="#carrusel" data-slide-to="3"></li>
+                            <li data-target="#carrusel" data-slide-to="4"></li>
+                            <li data-target="#carrusel" data-slide-to="5"></li>
+                        </ul>
+
+                        <!-- Imágenes del carrusel -->
+                        <center>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                    <img src="https://1.bp.blogspot.com/-d7QtIkYCXvA/USgZNnXNW4I/AAAAAAAACSw/i1xPARGtL-I/s1600/tapas1.JPG" alt="Imagen 1"
+                                        style="height: 250px; width: auto; object-fit: cover; object-position: center center;">
+                            </div>
+                            <div class="carousel-item">
+                                    <img src="https://2.bp.blogspot.com/-VkLRvKvyaZo/USgZTy7P_3I/AAAAAAAACTA/elHrtyN_O1s/s1600/AGUAS+MINERALES.jpg"
+                                        alt="Imagen 2"
+                                        style="height: 250px; width: auto; object-fit: cover; object-position: center center;">
+                            </div>
+                            <div class="carousel-item">
+                                    <img src="https://3.bp.blogspot.com/-Q7U8gPdODX4/USgZSLJJjHI/AAAAAAAACS4/IJPW-lThNoA/s320/tapa2.jpg"
+                                        alt="Imagen 3"
+                                        style="height: 250px; width: auto; object-fit: cover; object-position: center center;">
+                            </div>
+                            <div class="carousel-item">
+                                    <img src="https://3.bp.blogspot.com/-gErwNrti0cs/URxMnzGD-5I/AAAAAAAACOs/iwI43zAoDug/s400/tapas+palsticas+principal.jpg"
+                                        alt="Imagen 3"
+                                        style="height: 250px; width: auto; object-fit: cover; object-position: center center;">
+                            </div>
+                            <div class="carousel-item">
+                                    <img src="https://4.bp.blogspot.com/-v9oqReJQU6A/USgZZ0rGYmI/AAAAAAAACTI/ABIaeZT9aC8/s1600/tapas4.jpg"
+                                        alt="Imagen 3"
+                                        style="height: 250px; width: auto; object-fit: cover; object-position: center center;">
+                            </div>
+                            <div class="carousel-item">
+                                    <img src="https://3.bp.blogspot.com/-7W-gVwvIKaA/USgZeCR4fGI/AAAAAAAACTQ/e43WhlJ_m4w/s320/tapas3.png"
+                                        alt="Imagen 3"
+                                        style="height: 250px; width: auto; object-fit: cover; object-position: center center;">
+                            </div>
+                        </div>
+                        </center>
+                        <!-- Controles del carrusel -->
+                        <a class="carousel-control-prev" href="#carrusel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carrusel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Tercera fila: Imágenes de las 3 últimas casillas -->
-        <div class="row align-items-center">
-            <div class="col-4 text-center">
-                <div>
-                <img src="https://3.bp.blogspot.com/-gErwNrti0cs/URxMnzGD-5I/AAAAAAAACOs/iwI43zAoDug/s400/tapas+palsticas+principal.jpg"
-                    alt="" class="img-fluid" style="height: 250px; width: 310px;">
-                </div>
-            </div>
-            <div class="col-4 text-center">
-                <div>
-                <img src="https://4.bp.blogspot.com/-v9oqReJQU6A/USgZZ0rGYmI/AAAAAAAACTI/ABIaeZT9aC8/s1600/tapas4.jpg"
-                    alt="" class="img-fluid" style="height: 250px; width: 310px;">
-                </div>
-            </div>
-            <div class="col-4 text-center">
-                <div>
-                <img src="https://3.bp.blogspot.com/-7W-gVwvIKaA/USgZeCR4fGI/AAAAAAAACTQ/e43WhlJ_m4w/s320/tapas3.png"
-                    alt="" class="img-fluid" style="height: 250px; width: auto;">
-                </div>
-            </div>
-        </div>
         <!--PenUltima fila-->
         <div class="row align-items-center">
             <div class="col-12 text-center">
                 <div>
-                <p style="text-align: center; font-size: 20px; color: #007BFF; margin: 10px;">
-                    Ofrecemos tapas plásticas de 28mm para envases desechables y retornables, fabricadas en
-                    polipropileno natural o pigmentado con materia prima virgen de primera calidad, con o sin impresión
-                    hasta cuatro colores.
-                </p>
+                    <p style="text-align: center; font-size: 20px; color: #007BFF; margin: 10px;">
+                        Ofrecemos tapas plásticas de 28mm para envases desechables y retornables, fabricadas en
+                        polipropileno natural o pigmentado con materia prima virgen de primera calidad, con o sin
+                        impresión
+                        hasta cuatro colores.
+                    </p>
                 </div>
             </div>
         </div>
@@ -112,8 +134,7 @@
         <div class="row align-items-center">
             <div class="col-12 text-center">
                 <div>
-                <img src="../resourses/images/empaques.jpg"
-                    alt="" class="img-fluid">
+                    <img src="../resourses/images/empaques.jpg" alt="" class="img-fluid">
                 </div>
                 <p style="text-align: center; font-size: 20px; color: #007BFF; margin: 10px;">
                     Recientemente agregamos a nuestro catálogo bolsa plástica para líquidos. <br>

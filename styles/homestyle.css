@@ -19,6 +19,7 @@ body {
 /* Estilos para el carrusel */
 #carrusel {
     margin-top: 20px;
+    padding-top: 0rem;
 }
 
 .carousel-item img {

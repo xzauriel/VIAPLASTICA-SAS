@@ -15,30 +15,30 @@
     <link rel="stylesheet" href="../styles/homestyle.css">
 </head>
 
-<body>
+<body class="fondo-imagen">
     <!-- Barra de menú -->
+  <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a href="../index.html">
-            <img src="../resourses/images/Banner main.png" alt="Logo" style="height: 50px;">      </img>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="productos.html">Productos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Quiénes Somos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contáctenos</a>
-                </li>
-            </ul>
-        </div>
+      <img src="../resourses/images/Banner main-01.png" alt="Logo" style="height: 50px;">      </img>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quienes somos.html">Quiénes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contáctenos</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+  </header>
 
     <!-- contacto -->
     <div class="container mt-6">
@@ -47,19 +47,21 @@
             <div class="col-md-6">
                 <h2 style="text-align: center;">Formulario de Contacto</h2>
                 <form>
-                    <div class="form-group">
+                    <div class="form-group" style="font-weight: bold; font-size: 20px;">
                         <label for="nombre">Nombre:</label>
                         <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group" style="font-weight: bold; font-size: 20px;">
                         <label for="email">Correo Electrónico:</label>
                         <input type="email" class="form-control" id="email" placeholder="correo@example.com">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group" style="font-weight: bold; font-size: 20px;">
                         <label for="mensaje">Mensaje:</label>
                         <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary" disabled>Enviar</button>
+                    <h6 style="font-size: 11px; font-style: italic; color: #424141;">Servicio de envío de mensaje temporalmente desactivado. 
+                        Escríbenos directamente a nuestro correo</h6>
                 </form>
             </div>
             <div class="col-md-10">
@@ -70,13 +72,13 @@
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    ¿Que tamaño de tapas manejan?
+                                    ¿Que modelo de tapas manejan?
                                 </button>
                             </h5>
                         </div>
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
                             <div class="card-body">
-                                Tenemos la posibilidad de ajustarnos a las necesidades de su envase. Nuestro producto más común es la tapa de 28 milímetros.
+                                Tenemos la posibilidad de ajustarnos a las necesidades de su envase. 
                             </div>
                         </div>
                     </div>
@@ -118,9 +120,9 @@
 
     <br>
 
-    <div style="text-align: center; font-size: 24px; color: #007BFF; font-family: Verdana, Geneva, Tahoma, sans-serif;">
-        Ventas: Cel<a href="tel:3014432600">(57)301 443 2600</a><br>
-        email: <a href="viaplasticasas@gmail.com">viaplasticasas@gmail.com</a><br>
+    <div style="text-align: center; font-size: 44px; color: #007bff; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        Ventas: Cel<a href="tel:3014432600">(57)3054597176</a><br>
+        email: <a href="viaplasticasas@gmail.com">correoviaplastica@gmail.com</a><br>
         Bogotá DC, Colombia
     </div>
     <br><br>
